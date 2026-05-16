@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { ethers } from 'ethers';
 
-// 1. 網路守衛：設定我們只允許 Sepolia 測試網 (Hex ID: 0xaa36a7)
-const EXPECTED_CHAIN_ID = '0xaa36a7'; 
+// 1. Network Guard: Reads from .env, defaults to Sepolia (0xaa36a7) if not found
+const EXPECTED_CHAIN_ID = import.meta.env.VITE_CHAIN_ID || '0xaa36a7'; 
 
-// 2. 你的智能合約真實門牌號碼 
-const CONTRACT_ADDRESS = "0x306a64abF4831929A8D48B069EeFa82cA0CC0E7C";
+// 2. Contract Address: Reads from .env, defaults to original if not found
+const CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS || "0x306a64abF4831929A8D48B069EeFa82cA0CC0E7C";
 
 // 3. 100% 嚴格對齊最新版 Solidity 函數名稱與參數的 ABI
 const CONTRACT_ABI = [
