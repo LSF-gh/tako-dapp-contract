@@ -24,6 +24,7 @@ tako-dapp-contract/
 │   └── WalletSuccess.png
 ├── hardhat.config.ts   # Hardhat configuration file
 └── README.md           # This instruction document
+```
 
 🛠️ Prerequisites
 
@@ -177,3 +178,4 @@ For this test, use three separate accounts from your local Hardhat node or the S
 * **Result:** The contract calculates the split, cuts a fee for the platform address, and payouts the remaining portion directly to Account 1's wallet. 
 
 > **Note:** To finish the whole success cycle, repeat Steps 4, 5, and 6 one more time for Milestone 2. On that final payout, the contract will return the original 0.01 ETH reputation stake back to the creator.
+=======
