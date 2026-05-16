@@ -92,7 +92,7 @@ http://localhost:5173/
 The web interface will now render. You can connect your Web3 wallet (e.g., MetaMask) to interact with the smart contracts on your local network!
 📸 UI Preview
 
-<img width="921" height="715" alt="CreatorDashboard" src="[https://github.com/user-attachments/assets/e00677e4-2ffb-477b-8b26-0e54e89eda64](https://github.com/user-attachments/assets/e00677e4-2ffb-477b-8b26-0e54e89eda64)" />
+![CreatorDashboard](https://github.com/user-attachments/assets/e00677e4-2ffb-477b-8b26-0e54e89eda64)
 
-<img width="1385" height="737" alt="BackerDashboard" src="[https://github.com/user-attachments/assets/f5c12de3-56c2-4921-b9c1-fc81cd23fee4](https://github.com/user-attachments/assets/f5c12de3-56c2-4921-b9c1-fc81cd23fee4)" />
+![BackerDashboard](https://github.com/user-attachments/assets/f5c12de3-56c2-4921-b9c1-fc81cd23fee4)
 
