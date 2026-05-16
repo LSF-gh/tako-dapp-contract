@@ -1,4 +1,3 @@
-Markdown
 
 # Tako Crowdfunding dApp 🐙
 
@@ -20,13 +19,12 @@ tako-dapp-contract/
 ├── images/             # UI Screenshots for documentation
 │   ├── CreatorDashboard.png
 │   ├── BackerDashboard.png
-│   ├── ActiveVoting.png
 │   └── WalletSuccess.png
 ├── hardhat.config.ts   # Hardhat configuration file
 └── README.md           # This instruction document
 ```
 
-🛠️ Prerequisites
+## 🛠️ Prerequisites
 
 Before running this project, ensure you have the following installed on your machine:
 
@@ -34,7 +32,7 @@ Before running this project, ensure you have the following installed on your mac
 
     Git
 
-🧠 Backend: Contract Compilation, Testing, and Deployment
+## 🧠 Backend: Contract Compilation, Testing, and Deployment
 
 Open your terminal, ensure you are in the root directory (tako-dapp-contract), and install the backend dependencies:
 
@@ -99,7 +97,7 @@ http://localhost:5173/
 
 The web interface will now render. Make sure the MetaMask is connected to the appropriate network to interact with the smart contracts.
 
-### 📸 UI Preview
+## 📸 UI Preview
 
 <img src="./images/CreatorDashboard.png" width="600" />
 
@@ -178,4 +176,3 @@ For this test, use three separate accounts from your local Hardhat node or the S
 * **Result:** The contract calculates the split, cuts a fee for the platform address, and payouts the remaining portion directly to Account 1's wallet. 
 
 > **Note:** To finish the whole success cycle, repeat Steps 4, 5, and 6 one more time for Milestone 2. On that final payout, the contract will return the original 0.01 ETH reputation stake back to the creator.
-=======
