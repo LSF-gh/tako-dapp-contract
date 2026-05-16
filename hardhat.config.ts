@@ -1,8 +1,8 @@
 import { HardhatUserConfig } from "hardhat/config";
-import "@nomicfoundation/hardhat-toolbox-mocha-ethers"; // 👈 載入測試引擎
+import "@nomicfoundation/hardhat-ethers"; // 👈 只要這一行，其餘 toolbox 的都不要
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.20", // 👈 對齊你的合約版本
+  solidity: "0.8.24",
 };
 
-export default config;
+export default config;a

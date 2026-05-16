@@ -19,8 +19,10 @@
   "homepage": "https://github.com/LSF-gh/tako-dapp-contract#readme",
   "type": "module",
   "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.11",
     "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.5",
     "@types/node": "^22.19.19",
+    "ethers": "^6.16.0",
     "hardhat": "^3.4.5",
     "typescript": "~5.8.0"
   },
