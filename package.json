@@ -1,0 +1,30 @@
+{
+  "name": "tako-dapp-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LSF-gh/tako-dapp-contract.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LSF-gh/tako-dapp-contract/issues"
+  },
+  "homepage": "https://github.com/LSF-gh/tako-dapp-contract#readme",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.5",
+    "@types/node": "^22.19.19",
+    "hardhat": "^3.4.5",
+    "typescript": "~5.8.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  }
+}
